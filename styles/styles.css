@@ -14,7 +14,7 @@ main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
-    padding: 0 0 30px gray;
+    padding: 0 0 30px #90BAAD;
 }
 p {padding: 0;}
 main {
