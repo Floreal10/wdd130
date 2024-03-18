@@ -5,18 +5,18 @@ body {
     padding: 20px;
 }
 :root {
---primary-color: #;
---secondary-color: #;
---accent1-color: #;
---accent2-color: #;
+--primary-color: #424874;
+--secondary-color: #A6B1E1;
+--accent1-color: #D6E5E3;
+--accent2-color: #DCD6F7;
 
---heading-font: , serif;
---paragrph-font: , serif;
+--heading-font: #1B1B1E, serif;
+--paragrph-font: #373F51, serif;
 
---nav-background-color: #;
---nav-link-color: #;
---nav-hover-link-color: #;
---nav-hover-background-color: #;
+--nav-background-color: #D8DBE2;
+--nav-link-color: #1b5861;
+--nav-hover-link-color: #78A1BB;
+--nav-hover-background-color: #A9BCD0;
 }
 body {
     font-family: var(--paragrph-font);
