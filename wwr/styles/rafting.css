@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+:root {
+    --primary-color: #8DA9C4;
+    --secondary-color: #EEF4ED;
+    --accent1-color: #13315C;
+    --accent2-color: #134074;
+    
+    --heading-font: Tenor Sans, serif;
+    --paragrph-font: Tenor Sans , serif;
+    
+    --nav-background-color: #AEA4B4;
+    --nav-link-color: #E3DDE5;
+    --nav-hover-link-color: #E9DEED;
+    --nav-hover-background-color: #AEA4B4
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+nav {
+    background-color: var(--accent1-color);
+    padding: 10px;
+}
+h1 {
+    color: var(--accent2-color);
+    position: absolute;
+}
+
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    float: right;
+}
+.hero text {
+    text-align: left;
+    position: relative;
+}
+.article {
+    float: right;
+
+}
+footer img {
+    width: 50px;
+    height: 50px;
+}
+footer {
+    clear: both;
+}
