@@ -14,22 +14,31 @@
     --nav-hover-link-color: #E9DEED;
     --nav-hover-background-color: #AEA4B4
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    color: var(--accent2-color);
+    position: absolute;    
+}
 
+body {
+    font-family: var(--paragrph-font);
+    max-width: 960px;
+    padding: 20px;
+}
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 }
-nav {
+nav a {
     background-color: var(--accent1-color);
     padding: 10px;
 }
-h1 {
-    color: var(--accent2-color);
-    position: absolute;
-}
-
 
 .hero img {
     display: block;
