@@ -10,7 +10,7 @@
     --paragrph-font: Tenor Sans , serif;
 }
 h1 {
-    font-style: var(--heading-font);
+    font-family: var(--heading-font);
     color: var(--accent1-color);
     position: absolute ;  
     background-color: var(--primary-color);
@@ -20,7 +20,7 @@ h1 {
     padding-right: 20px;
 }
 h2 {
-    font-style: var(--heading-font);
+    font-family: var(--heading-font);
     color: var(--accent2-color);
 }
 
