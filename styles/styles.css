@@ -55,9 +55,8 @@ aside h2 {
     text-align: center;
 }
 header, footer, .grid {
-    max-width: 840px;
     margin: auto;
-    text-align: center;
+    max-width: 840px;
 }
 /* Class Selectors */
 .box {
