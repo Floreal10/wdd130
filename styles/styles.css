@@ -55,7 +55,7 @@ aside h2 {
     text-align: center;
 }
 header, footer, .grid {
-    margin: auto;
+    margin: 0 auto;
     max-width: 840px;
 }
 /* Class Selectors */
