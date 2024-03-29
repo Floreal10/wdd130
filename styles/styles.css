@@ -54,7 +54,7 @@ aside h2 {
     left: 130px;
     text-align: center;
 }
-header, .grid, footer {
+header, footer, .grid {
     max-width: 840px;
     margin: auto;
     text-align: center;
