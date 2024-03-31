@@ -120,13 +120,17 @@ max-width: 1000px;
 
 footer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     align-items: center;
     justify-items: center;
     background-color: #D9DCD6;
+}
+footer p {
+    grid-column: 2;
 }
 .sociallinks {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    grid-column: 3;
 }    
