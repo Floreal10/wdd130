@@ -24,31 +24,85 @@
 
     <main>
         <div class="company">
-            <h1> Company Info</h1>
+            <h1> Company Information</h1>
             
+            <h2>Contact Us</h2>
+
+            <p>Address: Dragon river 187</p>
+            <p>Phone number: 800 700 135</p>
+            <p>Email: <a href="mailto:">white_rafting.contact@gmail.com</a></p>
+            <p></p>
         </div>
-        
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d22141.7076803671!2d-115.48186720209519!3d51.17082556548397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1712015400260!5m2!1sen!2sca" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="title2">
+        <h2>Our Employes</h2>
+        </div>
+
         <section class="employes">
-            <h2>Our Employes</h2>
+            
             <figure>
-                <img src="images/rafting1.jpg" alt="Image 1" width="120">
-                <figcaption> Great team</figcaption>
+                <img src="images/happy.jpg" alt="Image 1" width="120">
+                <figcaption>Marketing</figcaption>
             </figure>
 
             <figure>
-                <img src="images/rafting2.jpg" alt="Image 2" width="120">
-                <figcaption> Amazing views</figcaption>
+                <img src="images/happy2.jpg" alt="Image 2" width="120">
+                <figcaption> Finances</figcaption>
             </figure>
 
             <figure>
-                <img src="images/rafting3.jpg" alt="Image 3" width="120">
-                <figcaption> Rapid waters</figcaption>
+                <img src="images/happy3.jpg" alt="Image 3" width="120">
+                <figcaption> Director</figcaption>
             </figure>
         </section>
 
-        <div class="form">
-            <!--I need to see-->
-        </div>
+        <h3>If you have a question please follow the form bellow</h3>
+
+        
+        <fieldset>
+            
+            <legend>HTML Form</legend>
+                
+            <div class="form-item">
+                <label for="fullname">Full Name</label>                    
+                <input type="text" id="fullname" name="fullname">
+            </div>
+
+            <div class="form-item">
+                <label for="useremail">Email: </label><input type="email" id="useremail" name="useremail">                               
+            </div>
+
+            <div class="radio"></div>
+                <label for="opt1">General Inquiry</label>
+                <input type="radio" id="opt1" name="opt1" value="opt1">
+
+                <label for="opt2">Reservation Question</label> 
+                <input type="radio" id="opt2" name="opt2" value="opt2">
+
+                <label for="opt3">Website Suggestion</label>
+                <input type="radio" id="opt2" name="opt3" value="opt3">
+            </div>
+
+            <div class="text">    
+                <label for="text">Messege</label>
+                <textarea id="text" name="text" rows="3"></textarea>
+            </div>
+
+            <div class="checkbox">
+
+                <label for="checkbox">Please subscribe me to the monthly newsletter</label>
+                <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                
+            </div>
+
+        </fieldset>
+            
+        <button type="submit">Submit Form</button>
+        
     </main>
 
     <footer>
