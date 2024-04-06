@@ -32,6 +32,7 @@ h2 {
     color: var(--accent2-color);
     text-align: center;
     grid-column: 2;
+    padding: 20px;
 }
 
 body {
@@ -223,4 +224,39 @@ button {
     border-radius: 5rem;
     padding: .75rem;
     font-size: 1rem;
+}
+
+.trips {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.titlestrips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding-right: 30px;
+    background: var(--accent1-color);
+    column-gap: 20px;
+    border: solid #2F6690;
+}
+
+.activities {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    background: var(--secondary-color);
+    border: solid #2F6690;
+    padding-bottom: 20px;
+}
+
+.available td, .available th {
+    border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  background: var(--secondary-color);
+}
+
+caption {
+    padding-top: 40px;
 }
