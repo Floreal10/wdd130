@@ -263,3 +263,31 @@ button {
 caption {
     padding-top: 40px;
 }
+
+.promotion h2 {
+    background-color: #8FB0B0;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background: var(--accent1-color);
+}
+
+.content figure {
+    padding-top: 45px;
+}
+
+.content p {
+    padding-top: 75px;
+}
+
+.form2  fieldset{
+    width: 300px;
+}
+
+.imgform {
+    position: absolute;
+    right: 250px;
+    top: 950px;
+}
