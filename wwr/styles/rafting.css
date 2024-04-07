@@ -91,6 +91,7 @@ padding-bottom: 50px;
 .hero article p {
     text-align: left;
     color: var(--accent2-color);
+    padding-left: 20px;
 }
 
 .history {
@@ -127,6 +128,7 @@ padding-bottom: 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     padding-bottom: 50px;
+    text-align: center;
 }
 
 footer {
